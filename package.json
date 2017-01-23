@@ -1,0 +1,15 @@
+{
+  "name": "firefox-google-calendar-guests-can-modify-event-by-default",
+  "version": "1.0.0",
+  "description": "Firefox extension that enables the 'Guests can modify event' setting for Google Calendar by default, when creating a new event.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-zip": "^3.2.0"
+  }
+}

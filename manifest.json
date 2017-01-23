@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Firefox Google Calendar Guests Can Modify Event By Default",
+    "version": "0.1",
+    "applications": {
+        "gecko": {
+            "id": "catgifs@mozilla.org"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://calendar.google.com/*",
+                "https://www.google.com/calendar/*"
+            ],
+            "js": [
+                "/js/calendar-script.js"
+            ]
+        }
+    ]
+}
