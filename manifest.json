@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Firefox Google Calendar Guests Modify Default",
-    "version": "0.1",
+    "version": "0.2",
     "applications": {
         "gecko": {
             "id": "firefox-google-calendar-guests-modify-default@victorquinn.com"
